@@ -1,0 +1,39 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+$color-white:#fff;
+$margin-right-10: 10px;
+$weight: bold;
+$margin-bottom-10: 10px;
+$unline: none;
+$padding-top-10: 10px;
+$size-1_7em: 1.7em;
+body {
+  padding-top: 60px;
+}
+section {
+  overflow: auto;
+}
+textarea {
+  resize: vertical;
+}
+.center {
+  text-align: center;
+}
+.center h1 {
+  margin-bottom: $margin-bottom-10;
+}
+#logo {
+float: left;
+  margin-right: $margin-right-10;
+  font-size: $size-1_7em;
+  color: $color-white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: $padding-top-10;
+  font-weight: $weight;
+}
+#logo:hover {
+  color: $color-white;
+  text-decoration: $unline;
+}

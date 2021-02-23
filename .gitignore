@@ -43,3 +43,4 @@ yarn-debug.log*
 .framgia-ci-result.temp.yml
 .browserslistrc
 /config/database.yml
+
