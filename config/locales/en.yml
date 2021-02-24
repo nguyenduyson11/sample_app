@@ -1,23 +1,10 @@
 en:
-  users:
-    index:
-      logo: "Sample App"
-      home: "Home"
-      help: "Help"
-      login: "Login"
-      text_home_page: "This is the home page for the"
-      text_home_title: "Welcome to the Sample App"
-      base_title: "Ruby on Rails Tutorial Sample App"
-      ruby_link: "Ruby on Rails Tutorial"
-      sigup_now: "Sigup Now"
-      link_ruby:
-      to_vi: "Vietnamese"
-      to_en: "English"
-    help:
-      title: "help"
-      text_help_page: "Get help on the Ruby on Rails Tutorial at the"
-      text_help_ruby: "To get help on this sample app, see the"  
-      help_page: "Rails Tutorial help page"
-      rails_tutorial: "Ruby on Rails Tutorial"
-      help_page_link: "http://www.railstutorial.org/help"
-      rails_tutorial_link: "http://www.railstutorial.org/book"
+  create_my_account: "Create my account"
+  sign_up: "Signup"
+  the_form_contains: "Errors"
+  message_register_success: "Register success"
+  message_register_error: "Register failed"
+  message_show_error: "User could not be found"
+  count_err:
+    one: "%{count} error"
+    other: "%{count} errors"

@@ -1,22 +1,10 @@
 vi:
-  users:
-    index:
-      logo: "ứng dụng mẫu"
-      home: "Nhà"
-      help: "Trợ giúp"
-      login: "Đăng nhập"
-      text_home_page: "Đây là trang chủ của"
-      text_home_title: "chào mừng bạn đã đến với ứng dụng Mẫu"
-      base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
-      ruby_link: "Hướng dẫn sử dụng Ruby on Rails"
-      sigup_now: "đăng ký ngay"
-      to_vi: "Tiếng vệt"
-      to_en: "Tiếng anh"
-    help:
-      title: "Trợ giúp"
-      text_help_page: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
-      text_help_ruby: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
-      help_page: "Trang trợ giúp Hướng dẫn về Rails"
-      rails_tutorial: "Hướng dẫn sử dụng Ruby on Rails"
-      help_page_link: "http://www.railstutorial.org/help"
-      rails_tutorial_link: "http://www.railstutorial.org/book"  
+  create_my_account: "Tạo tài khoản"
+  sign_up: "Đăng ký"
+  the_form_contains: "Lỗi"
+  message_register_success: "Đăng ký thành công"
+  message_register_error: "Đăng ký thất bại"
+  message_show_error: "Không tìm thấy user"
+  count_err:
+    one: "%{count} lỗi"
+    other: "%{count} lỗi"
