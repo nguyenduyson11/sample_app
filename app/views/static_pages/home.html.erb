@@ -1,10 +1,10 @@
-<%= link_to t("users.index.to_en"), locale: :en %>
-<%= link_to t("users.index.to_vi"), locale: :vi %>
+<%= link_to t("static.home.to_en"), locale: :en %>
+<%= link_to t("static.home.to_vi"), locale: :vi %>
 <div class="center jumbotron">
-  <h1><%= t("users.index.text_home_title") %></h1>
+  <h1><%= t("static.home.text_home_title") %></h1>
   <h2>
-   <%= t("users.index.text_home_page") %>
-    <%= link_to t("users.index.ruby_link"), "http://www.railstutorial.org/" %>
+   <%= t("static.home.text_home_page") %>
+    <%= link_to t("static.home.ruby_link"), t("static.home.link_ruby") %>
   </h2>
-  <%= link_to t("users.index.sigup_now"), "#", class: "btn btn-lg btn-primary" %>
+  <%= link_to t("static.home.sigup_now"), "#", class: "btn btn-lg btn-primary" %>
 </div>
