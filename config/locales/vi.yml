@@ -1,10 +1,18 @@
 vi:
   create_my_account: "Tạo tài khoản"
   sign_up: "Đăng ký"
+  log_in: "Đăng nhập"
+  log_out: "Đăng xuất"
+  new_user?: "Tạo người dùng"
+  sign_up_now!: "Đăng ký ngay"
   the_form_contains: "Lỗi"
   message_register_success: "Đăng ký thành công"
   message_register_error: "Đăng ký thất bại"
   message_show_error: "Không tìm thấy user"
+  danger_login: "Email hoặc mật khẩu không đúng"
+  account: "Tài khoản"
+  Profile: "Thông tin"
+  setting: "Cài đặt"
   count_err:
     one: "%{count} lỗi"
     other: "%{count} lỗi"
