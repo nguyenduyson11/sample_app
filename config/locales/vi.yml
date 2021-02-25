@@ -13,6 +13,7 @@ vi:
   account: "Tài khoản"
   Profile: "Thông tin"
   setting: "Cài đặt"
+  remember: "Hãy nhớ tôi trên máy tính này"
   count_err:
     one: "%{count} lỗi"
     other: "%{count} lỗi"
