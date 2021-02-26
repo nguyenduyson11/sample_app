@@ -1,10 +1,18 @@
 en:
   create_my_account: "Create my account"
   sign_up: "Signup"
+  log_in: "Log in"
+  log_out: "logout"
+  new_user?: "New user"
+  sign_up_now!: "Sign up now"
   the_form_contains: "Errors"
   message_register_success: "Register success"
   message_register_error: "Register failed"
   message_show_error: "User could not be found"
+  danger_login: "Email hoặc mật khẩu không đúng"
+  account: "Account"
+  profile: "Profile"
+  setting: "Setting"
   count_err:
     one: "%{count} error"
     other: "%{count} errors"
