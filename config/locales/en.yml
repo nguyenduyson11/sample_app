@@ -13,6 +13,7 @@ en:
   account: "Account"
   profile: "Profile"
   setting: "Setting"
+  remember: "Remember me on this computer"
   count_err:
     one: "%{count} error"
     other: "%{count} errors"

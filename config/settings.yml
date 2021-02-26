@@ -1,3 +1,5 @@
  user:
   email:
     max_length: 255
+  remember:
+    value: "1"
