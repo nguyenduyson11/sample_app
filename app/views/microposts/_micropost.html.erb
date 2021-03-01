@@ -1,0 +1,16 @@
+<li id="micropost-<%= micropost.id %>">
+  <span class="user"><%= link_to micropost.user.name, micropost.user %></span>
+  <span class="content">
+    <%= micropost.content %>
+    <%= image_tag micropost.display_image if micropost.image.attached? %>
+  </span>
+  <span class="timestamp">
+    <%= t("posted") %>
+    <%= time_ago_in_words(micropost.created_at) %>
+    <%= t("go") %>.
+    <% if current_user?(micropost.user) %>
+      <%= link_to t("microposts.micropost_delete"), micropost, method: :delete,
+        data: {confirm: t("microposts.you_sure")} %>
+    <% end %>
+  </span>
+</li>

@@ -1,0 +1,20 @@
+vi:
+  microposts:
+    text: "bai dang"
+    ago: "Trước đây"
+    Posted: "Đã đăng"
+    micropost_created: "bai dang da duoc tao"
+    count_micropost:
+      one: "%{count} bai dang"
+      other: "%{count} bai dang"
+    compose_new: "Soạn bài đăng mới"
+    post: "Bài đăng"
+    you_sure: "Bạn chắc chắn?"
+    micropost_delete: "Xoa"
+    micropost_success: "bai dang da duoc xoa"
+    micropost_danger: "xoa that bai"
+    micropost_invalid: "bai dang khong khop"
+    micropost_image1: "phải là một định dạng hình ảnh hợp lệ"
+    micropost_image2: "phải nhỏ hơn 5MB"
+    image_message: "Kích thước tệp tối đa là 5MB.
+     Vui lòng chọn một tệp nhỏ hơn."
