@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user
+  before_action :logged_in_user, except: %i(new create)
   before_action :find_user, except: %i(index create new)
   before_action :correct_user, only: %i(edit update)
 
@@ -17,9 +17,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t "message_register_success"
-      redirect_back_or @user
+      @user.send_activation_email
+      flash[:info] = t("check_email")
+      redirect_to root_url
     else
       flash.now[:error] = t "message_register_error"
       render :new

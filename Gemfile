@@ -16,6 +16,7 @@ gem "will_paginate", "3.1.8"
 gem "bootstrap-will_paginate", "1.0.0"
 gem "turbolinks", "~> 5"
 gem "config"
+gem "figaro"
 gem "jbuilder", "~> 2.7"
 gem "bootsnap", ">= 1.4.4", require: false
 group :development, :test do
