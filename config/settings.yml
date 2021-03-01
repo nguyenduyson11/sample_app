@@ -1,5 +1,9 @@
  user:
   email:
     max_length: 255
+  password:
+    size: 6
   remember:
     value: "1"
+  page:
+    limit: 10
