@@ -1,8 +1,7 @@
 vi:
   microposts:
     text: "bai dang"
-    ago: "Trước đây"
-    Posted: "Đã đăng"
+    posted: "da dang %{time} go"
     micropost_created: "bai dang da duoc tao"
     count_micropost:
       one: "%{count} bai dang"

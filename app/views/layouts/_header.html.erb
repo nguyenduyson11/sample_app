@@ -8,11 +8,14 @@
         <% if logged_in? %>
           <li><%= link_to t("user"), users_path %></li>
           <li class="dropdown">
-            <%= link_to "#", class: "dropdown-toggle", "data-toggle": "dropdown" do %>
-              <%= t"account" %>
-              <b class="caret"></b>
+            <%= link_to "http://localhost:3000", id: "dLabel", class: "dropdown-toggle",
+              "data-toggle": "dropdown", "role": "button",
+              "aria-haspopup": "true", "aria-expanded": "false",
+              "data-target":"#" do %>
+                <%= t"account" %>
+                <b class="caret"></b>
             <% end %>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu" aria-labelledby="dLabel">
               <li><%= link_to t("profile"), current_user %></li>
               <li><%= link_to t("setting"), edit_user_path(current_user) %></li>
               <li class="divider"></li>
