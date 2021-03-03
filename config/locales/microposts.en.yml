@@ -1,0 +1,20 @@
+en:
+  microposts:
+    text: "Microposts"
+    ago: "ago"
+    Posted: "Posted"
+    micropost_created: "Micropost created!"
+    count_micropost:
+      one: "%{count} micropost"
+      other: "%{count} microposts"
+    compose_new: "Compose new micropost..."
+    post: "Post"
+    micropost_feed: "Micropost Feed"
+    you_sure: "You sure?"
+    micropost_delete: "Delete"
+    micropost_success: "Micropost deleted!"
+    micropost_danger: "Deleted fail!"
+    micropost_invalid: "Micropost invalid"
+    micropost_image1: "must be a valid image format"
+    micropost_image2: "should be less than 5MB"
+    image_message: "Maximum file size is 5MB. Please choose a smaller file."

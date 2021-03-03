@@ -8,4 +8,9 @@
   remember:
     value: "1"
   page:
-    limit: 10  
+    limit: 5
+ micropost:
+  content:
+    length: 40
+  image:
+    size: 500

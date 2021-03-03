@@ -39,3 +39,4 @@ en:
   reset_password_empty: "reset password empty"
   reset_password_sucsess: "reset password sucsess"
   not_found_user : "Not found User"
+  view_my_profile: "view my profile"
