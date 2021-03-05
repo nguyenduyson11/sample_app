@@ -17,3 +17,8 @@ vi:
   count_err:
     one: "%{count} lỗi"
     other: "%{count} lỗi"
+  following: "Theo doi"
+  followers: "Nguoi theo doi"
+  unfollow: "huy theo doi"
+  follow: "theo doi"
+  not_found: "khong tim thay"

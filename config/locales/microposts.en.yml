@@ -1,8 +1,7 @@
 en:
   microposts:
     text: "Microposts"
-    ago: "ago"
-    Posted: "Posted"
+    posted: "Posted %{time} go"
     micropost_created: "Micropost created!"
     count_micropost:
       one: "%{count} micropost"
